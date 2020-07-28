@@ -1,0 +1,50 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css);
+
+* { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
+
+.first_container{
+    margin: 300px;
+    height: 100%;
+    width: 700px;
+    display:inline-flex;
+    flex-direction: column;
+}
+.first{
+    font-size: 4.5em;
+    font-family: 'Spoqa Han Sans';
+}
+.second{
+    margin-top: 45px;
+    font-size: 2em;
+}
+
+.third{
+    margin-top: 20px;
+    font-size: 2em;
+}
+.second_container{
+    width:500px;
+    height:100%;
+    display: inline-flex;
+    flex-direction:column;
+}
+.box{
+    padding:0 20px;
+    display: flex;
+    justify-content: space-between;
+    width : 500px;
+    height: 70px;
+    border-radius: 9px;
+    font-size: 1.2em;
+    margin: 10px;
+    box-shadow:0 30px 60px 12px rgba(0, 0, 33, 0.05),
+    0 4px 24px 0 rgba(0, 0, 33, 0.05),
+    0 0 1px 0 rgba(0, 0, 33, 0.09);
+    align-items: center;
+    flex-direction: row;
+}
+img{
+    width:30px;
+    height:30px;
+}
